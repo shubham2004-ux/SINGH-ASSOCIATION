@@ -13,10 +13,11 @@
                 margin-left: 20px;
                 margin-top: 20px;
                 border-radius: 10px;
+                box-shadow: 5px 5px 10px #4070f4;
             }
             
             .g {
-                padding-bottom: 50px;
+                display: inline-block;
             }
             
             .pk {
@@ -44,6 +45,7 @@
                 margin-left: 20px;
                 margin-top: 20px;
                 border-radius: 10px;
+                box-shadow: 5px 5px 10px #da3768;
             }
             
             @media (min-width: 640px) {
@@ -256,20 +258,11 @@
                 text-decoration-color: red;
             }
             
-            .container {
-                width: 300px;
-                overflow: hidden;
-            }
-            
             .container .text {
                 position: relative;
-                color: #4070f4;
+                color: #060475;
                 font-size: 30px;
                 font-weight: 600;
-            }
-            
-            .container .text.first-text {
-                color: rgb(65, 53, 53);
             }
             
             .text.second-text:before {
@@ -280,7 +273,7 @@
                 height: 100%;
                 width: 100%;
                 background-color: #ffffff;
-                border-left: 2px solid #4070f4;
+                border-left: 2px solid #060475;
                 animation: animate 4s steps(12) infinite;
             }
             
@@ -310,5 +303,6 @@
             
             .p {
                 color: purple;
-                font-family: Arial, Helvetica, sans-serif
+                font-family: Arial, Helvetica, sans-serif;
+                text-shadow: 2px 2px #e90bb9;
             }
